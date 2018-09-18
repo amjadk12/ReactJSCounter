@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import registerServiceWorker from "./registerServiceWorker";
-import Counter from "./components/counter.jsx";
+import Counters from "./components/counters.jsx";
 import "bootstrap/dist/css/bootstrap.css";
 
-ReactDOM.render(<Counter />, document.getElementById("root"));
+ReactDOM.render(<Counters />, document.getElementById("root"));
 registerServiceWorker();
