@@ -2,11 +2,12 @@ import React, { Component } from "react";
 
 class NavBar extends Component {
   render() {
+    const { totalCounters } = this.props;
     return (
       <nav className="navbar navbar-dark bg-dark">
-        <span className="navbar-brand mb-0 h1">Navbar</span>
+        Navbar
         <span className="badge badge-pill badge-secondary">
-          {this.props.totalCounters}
+          {totalCounters}
         </span>
       </nav>
     );
